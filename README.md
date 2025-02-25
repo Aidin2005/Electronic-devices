@@ -1,3 +1,70 @@
+# Class test
+Added 2 Test Device(s) to cart.
+..Added 2 Test Device(s) to cart.
+Checking out...
+Stock updated. Remaining Test Device: 8
+Total amount to pay: $200
+Thank you for shopping with us!
+..Stock updated. Remaining Test Device: 7
+...
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
+# How It Works
+
+### Device Classes:
+There’s a base class called Device that stores common details like name, price, stock, and warranty.
+Three subclasses (Smartphone, Laptop, Tablet) inherit from Device and add their own unique features (e.g., screen size for smartphones, RAM for laptops).
+Shopping Cart:
+The Cart class manages the items a user wants to buy.
+Users can add or remove items, view their cart, and checkout.
+During checkout, the stock of each device is updated.
+Main Program:
+A list of 20 devices is created (smartphones, laptops, and tablets).
+A menu lets users:
+View all devices.
+Add devices to their cart.
+View their cart and checkout.
+Key Features
+
+### Simple Menu: Users can interact with the program using a text-based menu.
+Stock Management: The program reduces the stock of devices when they are purchased.
+Basic Calculations: It calculates the total price of items in the cart.
+Example Interaction
+
+### The user selects "Show Devices" to see all available devices.
+They choose a device (e.g., iPhone 13) and specify how many they want.
+The device is added to their cart.
+They can view their cart and checkout, which updates the stock and shows the total price.
+# How to Run the Code
+
+## Requirements
+- Python 3.x installed (check with `python --version`)
+
+## Setup
+1. Navigate to the project directory:
+   ```sh
+   cd path/to/project
+   ```
+2. Run the main script:
+   ```sh
+   python store.py
+   ```
+
+## Running Tests
+Execute tests with:
+```sh
+python -m unittest test_device.py
+```
+
+## Troubleshooting
+- Ensure correct directory.
+- Fix `ModuleNotFoundError` by verifying imports.
+
+## Contributing
+Fork and submit pull requests for improvements.
+
 
 # Sample input/output.
 

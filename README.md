@@ -1,16 +1,6 @@
 # Class test
-Added 2 Test Device(s) to cart.
-..Added 2 Test Device(s) to cart.
-Checking out...
-Stock updated. Remaining Test Device: 8
-Total amount to pay: $200
-Thank you for shopping with us!
-..Stock updated. Remaining Test Device: 7
-...
-----------------------------------------------------------------------
-Ran 7 tests in 0.000s
+<img width="508" alt="Screenshot 2025-02-25 at 5 13 16 PM" src="https://github.com/user-attachments/assets/3f8dcbcd-e485-4442-94b0-06c7e48c6372" />
 
-OK
 # How It Works
 
 ### Device Classes:
